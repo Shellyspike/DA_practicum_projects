@@ -20,3 +20,5 @@
 6 | [Дашборд для блог-платформы Яндекс.Дзен](https://github.com/Shellyspike/DA_practicum_projects/tree/main/yandex_zen_statistics) | Подготовка дашборда и презентации для анализа взаимодействия пользователей с карточками статей платформы. | `pandas`,  `Tableau` |
 7 | [Исследование уровня потребительской лояльности телекоммуникационной компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/nps_statistics) | Подготовка дашборда и презентации для изучения результатов опроса, проведенного с целью определить уровень потребительской лояльности компании среди клиентов из России. | `pandas`,  `Tableau`, `sqlalchemy`, `numpy`|
 8 | [Анализ бизнес-показателей развлекательного приложения](https://github.com/Shellyspike/DA_practicum_projects/blob/main/marketing_analysis) | Построение профилей пользователей и изучение экономических метрик размещаемой приложением рекламы. | `pandas`,  `matplotlib`, `numpy`|
+9 | [Практика применения оконных функций SQL](https://github.com/Shellyspike/DA_practicum_projects/tree/main/sql_practice) | Задания на применение оконных функций в SQL-запросах через Jupyter Notebook. | `SQL`,  `sqlalchemy`, `pandas`, `seaborn`|
+
