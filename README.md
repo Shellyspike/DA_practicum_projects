@@ -8,7 +8,7 @@
 
 **IDE:** `Jupyter Notebook`
 
-**Средства визуализации**: `Tableau`, `PowerPoint`
+**Средства визуализации**: `Tableau`, `Power BI`, `PowerPoint`
 
 Номер проекта | Название проекта | Описание | Стек |
 :------------:| ---------------- | -------- | -----|
@@ -21,4 +21,5 @@
 7 | [Исследование уровня потребительской лояльности телекоммуникационной компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/nps_statistics) | Подготовка дашборда и презентации для изучения результатов опроса, проведенного с целью определить уровень потребительской лояльности компании среди клиентов из России. | `pandas`,  `Tableau`, `sqlalchemy`, `numpy`|
 8 | [Анализ бизнес-показателей развлекательного приложения](https://github.com/Shellyspike/DA_practicum_projects/blob/main/marketing_analysis) | Построение профилей пользователей и изучение экономических метрик размещаемой приложением рекламы. | `pandas`,  `matplotlib`, `numpy`|
 9 | [Практика применения оконных функций SQL](https://github.com/Shellyspike/DA_practicum_projects/tree/main/sql_practice) | Задания на применение оконных функций в SQL-запросах через Jupyter Notebook. | `SQL`,  `sqlalchemy`, `pandas`, `seaborn`|
+10 | [Определение перспективного тарифа для телеком-компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/tariff_comparison) | Статистический анализ данных о поведении абонентов 2 тарифов мобильного оператора. | `pandas`, `seaborn`, `numpy`, `scipy`|
 
