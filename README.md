@@ -23,3 +23,4 @@
 9 | [Практика применения оконных функций SQL](https://github.com/Shellyspike/DA_practicum_projects/tree/main/sql_practice) | Задания на применение оконных функций в SQL-запросах через Jupyter Notebook. | `SQL`,  `sqlalchemy`, `pandas`, `seaborn`|
 10 | [Определение перспективного тарифа для телеком-компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/tariff_comparison) | Статистический анализ данных о поведении абонентов 2 тарифов мобильного оператора. | `pandas`, `seaborn`, `numpy`, `scipy`|
 11 | [Проверка гипотез по увеличению выручки в интернет-магазине](https://github.com/Shellyspike/DA_practicum_projects/tree/main/AB-test) | Приоритизация гипотез по фреймворкам ICE и RICE и анализ результатов A/B-теста. | `pandas`, `matplotlib`, `numpy`, `scipy`|
+12 | [Исследование DA-вакансий в Telegram](https://github.com/Shellyspike/DA_practicum_projects/tree/main/jobs_dashboard) | Визуализация результатов парсинга вакансий. | `Tableau`, `Power BI`|
