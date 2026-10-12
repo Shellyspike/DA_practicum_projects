@@ -1,0 +1,16 @@
+# Local credentials and configuration
+.env
+*.env
+!.env.example
+config.yaml
+config.yml
+
+# Jupyter and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+
