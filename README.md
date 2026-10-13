@@ -1,27 +1,56 @@
-# DA_prakticum_projects
+# Учебные проекты по анализу данных
 
-В этом репозитории хранятся проекты, выполненные мной в ходе прохождения расширенного курса по анализу данных от образовательного сервиса Яндекс.Практикум.
+15 проектов, выполненных во время обучения на аналитика данных в Яндекс Практикуме. Это учебные работы: они подтверждают практику SQL, обработки и анализа данных, проверки гипотез и визуализации, но не представлены как коммерческий опыт.
 
-**Языки программирования:** `Python`, `SQL`
+## Навыки, релевантные системному анализу
 
-**IDE:** `Jupyter Notebook`
+- SQL: `JOIN`, CTE, агрегатные и оконные функции, аналитические запросы;
+- работа с реляционными базами данных и подключением через SQLAlchemy;
+- исследование структуры и качества данных;
+- проверка статистических гипотез и интерпретация A/B-тестов;
+- подготовка визуализаций, дашбордов и презентаций;
+- Python для анализа данных: pandas, NumPy, SciPy, Matplotlib, Seaborn и Plotly.
 
-**Средства визуализации**: `Tableau`, `Power BI`, `PowerPoint`
+## С чего начать
 
-Номер проекта | Название проекта | Описание | Стек |
-:------------:| ---------------- | -------- | -----|
-1 | [Исследование музыки больших городов](https://github.com/Shellyspike/DA_practicum_projects/tree/main/yandex_music) | Исследование предпочтений и поведения пользователей Яндекс.Музыки. | `pandas` |
-2 | [Исследование надежности заемщиков](https://github.com/Shellyspike/DA_practicum_projects/tree/main/borrowers_reliability) | Выявление закономерностей между семейным положением клиента банка, наличием у него детей и фактом погашения кредита в срок. | `pandas`,  `pymystem3`|
-3 | [Анализ рынка недвижимости](https://github.com/Shellyspike/DA_practicum_projects/tree/main/real_estate_analysis) | Исследование объявлений о продаже квартир и установление параметров определения рыночной стоимости объекта недвижимости. | `pandas`,  `matplotlib`, `numpy` |
-4 | [Изучение рынка российского кинопроката](https://github.com/Shellyspike/DA_practicum_projects/tree/main/russian_movies_statistics) | Выявление трендов на рынке кинопроката. Исследование доходности, популярности и успешности выявления государством фильмов, получающих поддержку из бюджета. | `pandas`,  `matplotlib`, `plotly` |
-5 | [Анализ рынка общественного питания](https://github.com/Shellyspike/DA_practicum_projects/blob/main/moscow_restaurants) | Изучение рынка общественного питания в Москве в целях создания сети кафе. | `pandas`,  `seaborn`, `matplotlib`, `plotly`, `pymystem3`, `io` |
-6 | [Дашборд для блог-платформы Яндекс.Дзен](https://github.com/Shellyspike/DA_practicum_projects/tree/main/yandex_zen_statistics) | Подготовка дашборда и презентации для анализа взаимодействия пользователей с карточками статей платформы. | `pandas`,  `Tableau` |
-7 | [Исследование уровня потребительской лояльности телекоммуникационной компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/nps_statistics) | Подготовка дашборда и презентации для изучения результатов опроса, проведенного с целью определить уровень потребительской лояльности компании среди клиентов из России. | `pandas`,  `Tableau`, `sqlalchemy`, `numpy`|
-8 | [Анализ бизнес-показателей развлекательного приложения](https://github.com/Shellyspike/DA_practicum_projects/blob/main/marketing_analysis) | Построение профилей пользователей и изучение экономических метрик размещаемой приложением рекламы. | `pandas`,  `matplotlib`, `numpy`|
-9 | [Практика применения оконных функций SQL](https://github.com/Shellyspike/DA_practicum_projects/tree/main/sql_practice) | Задания на применение оконных функций в SQL-запросах через Jupyter Notebook. | `SQL`,  `sqlalchemy`, `pandas`, `seaborn`|
-10 | [Определение перспективного тарифа для телеком-компании](https://github.com/Shellyspike/DA_practicum_projects/tree/main/tariff_comparison) | Статистический анализ данных о поведении абонентов 2 тарифов мобильного оператора. | `pandas`, `seaborn`, `numpy`, `scipy`|
-11 | [Проверка гипотез по увеличению выручки в интернет-магазине](https://github.com/Shellyspike/DA_practicum_projects/tree/main/AB-test) | Приоритизация гипотез по фреймворкам ICE и RICE и анализ результатов A/B-теста. | `pandas`, `matplotlib`, `numpy`, `scipy`|
-12 | [Исследование DA-вакансий в Telegram](https://github.com/Shellyspike/DA_practicum_projects/tree/main/jobs_dashboard) | Визуализация результатов парсинга вакансий. | `Tableau`, `Power BI`|
-13 | [Изучение проблемы оттока пользователей фитнес-центра](https://github.com/Shellyspike/DA_practicum_projects/tree/main/machine_learning) | Анализ анкет клиентов фитнес-центра для прогнозирования вероятности оттока клиентов. | `pandas`, `seaborn`, `numpy`, `matplotlib`, `scipy`, `sklearn`|
-14 | [Исследование данных о продажах компьютерных игр](https://github.com/Shellyspike/DA_practicum_projects/tree/main/game_store) | Выявление закономерностей, определяющих успешность компьютерной игры. | `pandas`, `seaborn`, `numpy`, `matplotlib`, `scipy`, `plotly`|
-15 | [Финальный проект](https://github.com/Shellyspike/DA_practicum_projects/tree/main/final_project) | Анализ рекламных источников мобильной игры, результатов A/B теста, запросы к базе данных. | `pandas`, `seaborn`, `numpy`, `matplotlib`, `scipy`, `plotly`, `sqlalchemy`|
+| Проект | Задача | Инструменты | Результат |
+|---|---|---|---|
+| [SQL: база книжного сервиса](final_project/sql.ipynb) | Исследовать данные реляционной БД сервиса чтения книг | SQL, JOIN, агрегаты, SQLAlchemy | Набор запросов и выводы по книгам, авторам, издательствам и пользовательской активности |
+| [Практика SQL](sql_practice/) | Решить аналитические задачи с применением оконных функций | SQL, оконные функции, pandas, SQLAlchemy | Запросы с ранжированием, расчётами по группам и накопительными метриками |
+| [Анализ A/B-теста](final_project/ab_test.ipynb) | Проверить соответствие теста техническому заданию и оценить результаты | pandas, SciPy, Plotly | Проверка качества эксперимента, анализ воронки и статистических различий |
+| [Дашборд вакансий](jobs_dashboard/) | Представить результаты обработки вакансий аналитиков из Telegram | Tableau, Power BI | Интерактивная визуализация характеристик вакансий и требуемых навыков |
+
+## Все проекты
+
+| № | Проект | Краткое описание | Стек |
+|---:|---|---|---|
+| 1 | [Музыка больших городов](yandex_music/) | Сравнение предпочтений и поведения пользователей Яндекс Музыки | pandas |
+| 2 | [Надёжность заёмщиков](borrowers_reliability/) | Связь семейного положения, наличия детей и возврата кредита в срок | pandas, pymystem3 |
+| 3 | [Рынок недвижимости](real_estate_analysis/) | Исследование объявлений и факторов рыночной стоимости жилья | pandas, Matplotlib, NumPy |
+| 4 | [Российский кинопрокат](russian_movies_statistics/) | Тренды рынка, доходность и популярность фильмов с господдержкой | pandas, Matplotlib, Plotly |
+| 5 | [Рынок общественного питания](moscow_restaurants/) | Анализ заведений Москвы для оценки идеи сети кафе | pandas, Seaborn, Matplotlib, Plotly |
+| 6 | [Яндекс Дзен](yandex_zen_statistics/) | Дашборд и презентация по взаимодействию пользователей с карточками статей | pandas, Tableau |
+| 7 | [NPS телеком-компании](nps_statistics/) | Дашборд и презентация по результатам опроса клиентской лояльности | pandas, Tableau, SQLAlchemy, NumPy |
+| 8 | [Маркетинговый анализ приложения](marketing_analysis/) | Профили пользователей и оценка рекламных метрик | pandas, Matplotlib, NumPy |
+| 9 | [Практика оконных функций SQL](sql_practice/) | Аналитические запросы в Jupyter Notebook | SQL, SQLAlchemy, pandas, Seaborn |
+| 10 | [Сравнение тарифов](tariff_comparison/) | Статистический анализ поведения абонентов двух тарифов | pandas, Seaborn, NumPy, SciPy |
+| 11 | [Гипотезы и A/B-тест интернет-магазина](AB-test/) | Приоритизация гипотез по ICE/RICE и анализ эксперимента | pandas, Matplotlib, NumPy, SciPy |
+| 12 | [Дашборд вакансий аналитиков](jobs_dashboard/) | Визуализация результатов обработки вакансий | Tableau, Power BI |
+| 13 | [Отток клиентов фитнес-центра](machine_learning/) | Анализ анкет и прогнозирование вероятности оттока | pandas, Seaborn, NumPy, Matplotlib, SciPy, scikit-learn |
+| 14 | [Продажи компьютерных игр](game_store/) | Поиск закономерностей, связанных с успешностью игр | pandas, Seaborn, NumPy, Matplotlib, SciPy, Plotly |
+| 15 | [Выпускной проект](final_project/) | Анализ рекламных источников, A/B-теста и данных книжного сервиса | pandas, SQL, SQLAlchemy, Seaborn, NumPy, Matplotlib, SciPy, Plotly |
+
+## Внешние материалы
+
+Ссылки на Tableau и презентации находятся в README соответствующих проектов:
+
+- [дашборд вакансий](jobs_dashboard/README.md);
+- [NPS: дашборд и презентация](nps_statistics/README.md);
+- [Яндекс Дзен: дашборд и презентация](yandex_zen_statistics/README.md).
+
+Публичные ссылки Tableau и относительные ссылки на PDF проверены при обновлении README.
+
+## Безопасное подключение к БД
+
+Учётные данные не должны храниться в notebook или Git. Для `final_project/sql.ipynb` используются переменные окружения; список требуемых имён приведён в [.env.example](.env.example). Задайте переменные средствами операционной системы или загрузите локальный `.env` своим инструментом окружения, но не добавляйте реальные значения в репозиторий.
+
